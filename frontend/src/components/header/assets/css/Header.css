@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'deGang';
+  src: url('../fonte/BlackBoard.ttf')
+  format('truetype');
+}
+
+
+#Nomemarca {
+  font-family: 'deGang';
+  font-size: 35px; 
+}

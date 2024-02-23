@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'deGang';
+    src: url('../fonte/BlackBoard.ttf')
+    format('truetype');
+  }
+
+
+.tituloProduto{
+    font-family: 'deGang';
+}
