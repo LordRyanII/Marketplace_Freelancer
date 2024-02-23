@@ -14,7 +14,7 @@ function Header() {
 
     return (
         <>
-            <Navbar className="bg-body-tertiary justify-content-between">
+            <Navbar className="bg-body-tertiary justify-content-between sticky-top" >
                 <Row className="w-100">
                     <Col xs="auto" className="ml-3">
                         {/* Botão hamburguer para expandir as opções de menu à esquerda */}

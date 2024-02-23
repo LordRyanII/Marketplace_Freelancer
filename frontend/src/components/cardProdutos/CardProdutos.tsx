@@ -6,7 +6,7 @@ import './assets/css/CardProdutos.css';
 function CardProdutos() {
     // Dados de exemplo
     const produtos = [
-        { id: 1, imagem: camiseta1, titulo: 'Card title', descricao: 'Descrição do produto 1' },
+        { id: 1, imagem: camiseta1, titulo: 'Card title', descricao: 'Camiseta underground kpop' },
         { id: 2, imagem: camiseta2, titulo: 'Card title', descricao: 'Descrição do produto 2' },
         { id: 1, imagem: camiseta1, titulo: 'Card title', descricao: 'Descrição do produto 1' },
         { id: 2, imagem: camiseta2, titulo: 'Card title', descricao: 'Descrição do produto 2' },
