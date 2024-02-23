@@ -8,3 +8,9 @@
 .tituloProduto{
     font-family: 'deGang';
 }
+
+@media screen and (min-width: 500px) {
+  #card-img{
+    margin: auto;
+  }
+}

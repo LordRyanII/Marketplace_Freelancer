@@ -1,6 +1,5 @@
 import instagramIcone from './imgs/icons8-instagram-150.png'
 import facebookIcone from './imgs/icons8-facebook-100.png'
-import { NavLink } from 'react-bootstrap';
 import './Footer.css'
 
 function Footer() {
@@ -9,10 +8,10 @@ function Footer() {
       <footer style={{ padding: '20px' }}>
         <p style={{ textAlign: 'center' }}>&copy; 2024 - My Company Nicolau Underground store</p>
         <div className='info-imagens' style={{ textAlign: 'center', margin: 'auto' }}>
-          <a href="https://google.com" target='_blank' title='Nos siga no instagram '>
+          <a href="https://www.instagram.com/nicolas_bma/" target='_blank' title='Nos siga no instagram '>
             <img src={instagramIcone} alt="" style={{ width: "100px", height: "auto" }} />
           </a>
-          <a href="#" target='_blank' title='Visite o nosso perfil na facebok'>
+          <a href="https://www.facebook.com/nicolas.bernardo666" target='_blank' title='Visite o nosso perfil na facebok'>
             <img src={facebookIcone} alt="" style={{ width: "100px", height: "auto" }} />
           </a>
         </div>

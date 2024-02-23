@@ -6,6 +6,15 @@
 
 
 #Nomemarca {
+  padding: 5px;
   font-family: 'deGang';
-  font-size: 35px; 
+  font-size: 30px; 
 }
+
+  @media (max-width:500px) {
+    #Nomemarca{
+      font-size: 25px;
+    }
+    
+  }
+
