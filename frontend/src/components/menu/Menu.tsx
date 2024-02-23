@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Navbar, Form, Button, Row, Col, Nav, Offcanvas, Container } from 'react-bootstrap';
 import { HiMenu } from 'react-icons/hi';
 import { BsSearch } from 'react-icons/bs';
