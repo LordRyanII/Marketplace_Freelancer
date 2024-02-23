@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { Navbar, Form, Button, Row, Col, Nav, Offcanvas, Container } from 'react-bootstrap';
 import { HiMenu } from 'react-icons/hi';
 import { BsSearch } from 'react-icons/bs';
@@ -13,7 +13,7 @@ function HomeMenu() {
   return (
     <>
       {/* Navbar para dispositivos móveis */}
-      <Navbar className="bg-body-tertiary justify-content-between sticky-top d-lg-none">
+      <Navbar className="bg-body-tertiary justify-content-between sticky-top d-lg-none" id='navBar'>
         <Container>
           <Row className="w-100">
             <Col xs="auto" className="ml-3">
@@ -29,7 +29,7 @@ function HomeMenu() {
       {/* Navbar para dispositivos de tamanho médio ou maior */}
       <Navbar className="bg-body-tertiary justify-content-between sticky-top d-md-block d-lg-block">
         <Container>
-          <Row className="w-100">
+          <Row className="w-100" id='headerName'>
             <Col xs="auto" className="ml-3">
               {/* Botão hamburguer para expandir as opções de menu à esquerda */}
               <Button variant="link" onClick={handleMenuToggle} className="d-none d-lg-block">
@@ -39,7 +39,7 @@ function HomeMenu() {
             <Col xs="auto" className="mx-auto">
               {/* Nome da marca ao meio */}
               <Navbar.Brand href="#home">
-                <span id='Nomemarca'>Nicolau Underground store</span>
+                <span id='Nomemarca'>nimu<span className='subMarca'>.co</span></span>
               </Navbar.Brand>
             </Col>
             <Col xs="auto" className="mr-1 d-none d-lg-block">
@@ -58,17 +58,18 @@ function HomeMenu() {
       </Navbar>
 
       {/* Opções de menu lateral */}
-      <Offcanvas show={showMenu} onHide={handleMenuToggle} placement="start">
+      <Offcanvas show={showMenu} onHide={handleMenuToggle} placement="start" id='menuLateral'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Opções</Offcanvas.Title>
         </Offcanvas.Header>
+        <hr />
         <Offcanvas.Body>
           <Nav defaultActiveKey="/" className="flex-column">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Dicas de modas do Nicolas</Nav.Link>
-            <Nav.Link href="#link">Trocas</Nav.Link>
-            <Nav.Link href="#link">Quem somos</Nav.Link>
-            <Nav.Link href="#link">Contato</Nav.Link>
+            <Nav.Link href="#home" id='navLink'>Inicio</Nav.Link>
+            <Nav.Link href="#link" id='navLink' >Dicas de modas do Nicolas</Nav.Link>
+            <Nav.Link href="#link"  id='navLink'>Trocas</Nav.Link>
+            <Nav.Link href="#link" id='navLink'>Quem somos</Nav.Link>
+            <Nav.Link href="#link"  id='navLink'>Contato</Nav.Link>
             {/* Adicione a opção de pesquisa apenas em dispositivos móveis */}
             <Form className="d-lg-none">
               <div className="d-flex">

@@ -1,20 +1,45 @@
 @font-face {
   font-family: 'deGang';
-  src: url('../fonte/BlackBoard.ttf')
+  src: url('../fonte/benzin-bold.ttf')
   format('truetype');
 }
 
 
-#Nomemarca {
-  padding: 5px;
+#Nomemarca{
   font-family: 'deGang';
-  font-size: 30px; 
+  font-size: 35px;
 }
 
-  @media (max-width:500px) {
-    #Nomemarca{
+#menuLateral{
+  font-family: 'deGang';
+  font-weight: bold;
+  
+  
+}
+
+#navLink{
+  text-decoration: none;
+  color: black;
+  padding-bottom: 35px;
+}
+
+#navLink:hover{
+  color:rgb(96, 96, 96)
+}
+
+.subMarca{
+  font-size: 10px;
+}
+  @media screen and (max-width:500px) {
+    #Nomemarca, .subMarca {
       font-size: 25px;
     }
-    
+
+    #navBar{
+     width: 10%;
+    }
+
+
+
   }
 
