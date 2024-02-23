@@ -1,6 +1,9 @@
 import { Card, CardGroup } from 'react-bootstrap';
 import camiseta1 from './assets/imgs/camisetaMetro.jpeg';
 import camiseta2 from './assets/imgs/camiseta.jpeg';
+import camiseta3 from './assets/imgs/camiseta-stone-sour-blusa-corey-taylor.jpeg';
+import camiseta4 from './assets/imgs/corey-taylor-slipnot-cancela-turne-saude-mental.jpeg';
+
 import './assets/css/CardProdutos.css';
 
 function CardProdutos() {
@@ -8,9 +11,9 @@ function CardProdutos() {
     const produtos = [
         { id: 1, imagem: camiseta1, titulo: 'T-shirt pop show', descricao: 'Camiseta underground kpop' },
         { id: 2, imagem: camiseta2, titulo: 'T-shirt celebrity of chaos', descricao: 'Moda Bruno mars' },
-        { id: 1, imagem: camiseta1, titulo: 'Exemplos de camiseta tshirt', descricao: 'Modo kim jung un' },
+        { id: 1, imagem: camiseta3, titulo: 'Stone sour t-shirt', descricao: 'Camiseta stone sour corey taylor, unisex' },
         { id: 2, imagem: camiseta2, titulo: 'T-shirt pop show', descricao: 'Descrição do produto 2' },
-        { id: 1, imagem: camiseta1, titulo: 'T-moleton 5ton fuzion fashion', descricao: 'Descrição do produto 1' },
+        { id: 1, imagem: camiseta4, titulo: 'Camiseta preta do melhor vocalista de metal', descricao: 'Camiseta do Corey fuck taylor, o brabo!' },
     ];
 
     return (
