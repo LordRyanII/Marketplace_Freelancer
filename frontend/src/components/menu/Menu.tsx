@@ -3,6 +3,8 @@ import { Navbar, Form, Button, Row, Col, Nav, Offcanvas, Container } from 'react
 import { HiMenu } from 'react-icons/hi';
 import { BsSearch } from 'react-icons/bs';
 
+import CardUser from '../cardUser/CardUser';
+
 function HomeMenu() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -65,11 +67,11 @@ function HomeMenu() {
         <hr />
         <Offcanvas.Body>
           <Nav defaultActiveKey="/" className="flex-column">
-            <Nav.Link href="#home" id='navLink'>Inicio</Nav.Link>
+            <Nav.Link href="/" id='navLink'>Inicio</Nav.Link>
             <Nav.Link href="#link" id='navLink' >Dicas de modas do Nicolas</Nav.Link>
-            <Nav.Link href="#link"  id='navLink'>Trocas</Nav.Link>
-            <Nav.Link href="#link" id='navLink'>Quem somos</Nav.Link>
-            <Nav.Link href="#link"  id='navLink'>Contato</Nav.Link>
+            <Nav.Link href="/devolucoes" id='navLink'>Trocas</Nav.Link>
+            <Nav.Link href="/history" id='navLink'>Quem somos</Nav.Link>
+            <Nav.Link href="/contacts" id='navLink'>Contato</Nav.Link>
             {/* Adicione a opção de pesquisa apenas em dispositivos móveis */}
             <Form className="d-lg-none">
               <div className="d-flex">
@@ -80,6 +82,9 @@ function HomeMenu() {
               </div>
             </Form>
           </Nav>
+          <Nav.Link>
+            <CardUser />
+          </Nav.Link>
         </Offcanvas.Body>
       </Offcanvas>
     </>

@@ -3,14 +3,13 @@ import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import './Layout.css';
 interface Props {
-
-    children?: React.ReactNode;
     title?: string;
-    subtitle: string
+    subtitle?: string
+    children: React.ReactNode;
 }
 
 
-const Layout = ({ title, subtitle, children }: Props | any) => {
+const Layout = ({ title, subtitle, children }: Props) => {
     const location = useLocation();
     const isLoginPage = location.pathname === '/login';
     const isRegistroPage = location.pathname === '/registro';

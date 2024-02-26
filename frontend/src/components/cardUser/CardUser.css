@@ -1,0 +1,10 @@
+.cardUser{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.opcoes{
+    text-decoration: none;
+}
