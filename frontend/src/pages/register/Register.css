@@ -1,0 +1,26 @@
+.container-register{
+    margin: auto;
+    width: 70%;
+}
+
+.btns-subbmit{
+    width: 100%;
+}
+
+#btnRegister{
+    margin-left: 40%;
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+
+
+}
+
+#btnRegister:hover{
+    background-color: grey;
+    color: white;
+}

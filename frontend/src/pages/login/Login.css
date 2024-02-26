@@ -1,0 +1,19 @@
+
+#btnLogin{
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+
+
+}
+
+#btnLogin:hover{
+    background-color: grey;
+    color: white;
+    border: none;
+}

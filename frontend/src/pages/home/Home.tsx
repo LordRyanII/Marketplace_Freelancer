@@ -1,23 +1,17 @@
-import Header from '../../components/header/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from '../../layout/Layout';
 import CardCarousel from '../../components/carousel/Carousel';
 import CardProdutos from '../../components/cardProdutos/CardProdutos';
-import Footer from '../../components/footer/Footer'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './Home.css'
 
 
 function Home() {
-
     return (
-        <>
-            <Header />
+        <Layout>
             <CardCarousel />
-            <br />
-            <br />
             < CardProdutos />
-            <br />
-            <br />
-            <Footer />
-        </>
+        </Layout>
     )
 }
 
