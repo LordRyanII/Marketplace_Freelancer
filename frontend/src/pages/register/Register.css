@@ -8,12 +8,12 @@
 }
 
 #btnRegister{
-    margin-left: 40%;
+    width: 90%;
+    padding: 15px;
     text-align: center;
-    width: 250px;
-    padding: 10px;
     border-radius: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
     background-color: black;
     color: white;
 

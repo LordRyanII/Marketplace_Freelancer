@@ -42,13 +42,15 @@ function Register() {
                             <Form.Control style={{ borderRadius: '20px' }} />
                         </Form.Group>
                     </Row>
-                    <br />
-                    <br />
-                    <div className="btns-subbmit">
-                        <button id='btnRegister'>
-                            REGISTRAR-SE
-                        </button>
-                    </div>
+                 
+                    <Row className="justify-content-center mt-5">
+                        <Col xs={12} sm={4}>
+                            <button id='btnRegister'>
+                                REGISTRAR-SE
+                            </button>
+
+                        </Col>
+                    </Row>
                     <br />
                     <p>
                         Já possuí uma conta? <Link to='/login'>Iniciar sessão</Link>
@@ -57,7 +59,7 @@ function Register() {
                 </Form>
 
             </div>
-      
+
         </Layout>
     )
 }
