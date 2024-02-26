@@ -7,13 +7,13 @@ function CardUser() {
             <hr />
             <div className="cardUser">
                 <p className='opcoes'>
-                    <NavLink to='/registro'>
+                    <NavLink to='/registro' id='opcoesUser'>
                         Cadastrar-se
                     </NavLink>
 
                 </p>
                 <p className='opcoes'>
-                    <NavLink to='/login'>
+                    <NavLink to='/login' id='opcoesUser'>
                         Login
                     </NavLink>
                 </p>
