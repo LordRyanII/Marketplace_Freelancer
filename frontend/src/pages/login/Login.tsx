@@ -1,6 +1,6 @@
 import { Col, Form, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Layout from '../../layout/Layout';
+import Layout from '../../layout/user/Layout';
 import './Login.css'
 
 function Login() {

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from '../../layout/Layout';
+import Layout from '../../layout/user/Layout';
 import CardCarousel from '../../components/carousel/Carousel';
 import CardProdutos from '../../components/cardProdutos/CardProdutos';
 
