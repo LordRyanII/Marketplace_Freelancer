@@ -3,7 +3,7 @@ import { Navbar, Form, Button, Row, Col, Nav, Offcanvas, Container } from 'react
 import { HiMenu } from 'react-icons/hi';
 import { BsSearch } from 'react-icons/bs';
 
-import CardUser from '../cardUser/CardUser';
+import CardUser from '../../cardUser/CardUser';
 
 function HomeMenu() {
   const [showMenu, setShowMenu] = useState(false);

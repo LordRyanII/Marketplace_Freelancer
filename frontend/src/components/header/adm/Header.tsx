@@ -1,13 +1,20 @@
+import './Header.css';
+
 interface header {
-    title: string | any;
+    title: string;
 }
 
 
 const Header = ({ title }: header) => {
     return (
-        <div className="header-content" title="Dashboard">
-            <h1>{title}</h1>
-        </div>
+        <>
+            <header>
+                <h1>
+                    {title}
+                </h1>
+            </header>
+        </>
+
     )
 }
 
