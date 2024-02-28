@@ -1,6 +1,6 @@
 
 import './assets/css/Header.css'
-import HomeMenu from '../menu/Menu';
+import HomeMenu from '../../menu/Menu';
 
 function Header() {
     return (

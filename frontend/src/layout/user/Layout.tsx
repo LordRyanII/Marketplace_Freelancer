@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';  // Importe useLocation se estiver usando o React Router
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/user/Header";
+import Footer from "../../components/footer/user/Footer";
 import './Layout.css';
 interface Props {
     title?: string;
